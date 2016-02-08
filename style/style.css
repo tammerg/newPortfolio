@@ -17,7 +17,7 @@ footer{
 nav{
   position: fixed;
 }
-.me{
+#firstPicture{
   width: 200px;
   height: 300px;
 }
@@ -27,5 +27,5 @@ nav{
 .container1 {
   left:0;
   position: absolute;
-  
+
 }
