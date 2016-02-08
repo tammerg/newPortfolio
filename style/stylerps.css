@@ -11,7 +11,7 @@ footer{
 }
 th{
   text-decoration: underline;
-  color: #2d8483; 
+  color: #2d8483;
 }
 h1, h2, h3, h4, strong{
   text-align: center;
@@ -43,7 +43,6 @@ h1, h2, h3, h4, strong{
   color: white;
 
 }
-
 #result{
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
