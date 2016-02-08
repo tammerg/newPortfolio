@@ -44,14 +44,13 @@ function gameLogic(playerChoice, oppChoice) {
       $("#oppWins").html("Computer Wins:" + oppWins);
   }
 }
-} 
+}
 $(document).ready(function() {
-
   $(".gameButtons").on("click", function(){
     $(this).addClass("bigEntrance");
       $("#resultModal").modal('show').delay(3000);
         playerChoice = $(this).attr('data-choice');
-        var randomIndex = Math.floor(Math.random()*computerChoice.length); 
+        var randomIndex = Math.floor(Math.random()*computerChoice.length);
         var oppChoice = computerChoice[randomIndex];
         gameLogic(playerChoice, oppChoice);
   });

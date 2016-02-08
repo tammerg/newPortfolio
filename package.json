@@ -1,0 +1,23 @@
+{
+  "name": "tgportfolio",
+  "version": "1.0.0",
+  "description": "This is my initial portfolio, utilizing javascript, ajax calls,\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Chtml, css3, bootstrap,javascript, jquery, ajax, and node.js.",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bserver.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tammerg/newPortfolio.git"
+  },
+  "author": "Tammer Galal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tammerg/newPortfolio/issues"
+  },
+  "homepage": "https://github.com/tammerg/newPortfolio#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "node-github": "0.0.3"
+  }
+}
