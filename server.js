@@ -1,6 +1,14 @@
 var express = require('express');
 var app = express();
 var PORT = process.env.PORT || 8080;
+var session = require ('express-session');
+var bodyParser = require('body-parser');
+
+app.use('/js', express.static('public/js');
+app.use('/style', express.static('public/style');
+app.use('/html', express.static('public/html');
+
+
 
 app.get('/', function(req, res){
   res.sendFile(process.cwd() + '/views/index.html');
