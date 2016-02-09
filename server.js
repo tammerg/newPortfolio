@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 app.use('/js', express.static('public/js');
 app.use('/style', express.static('public/style');
 app.use('/html', express.static('public/html');
+app.use('/img', express.static('public/img');
 
 
 
