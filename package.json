@@ -1,8 +1,8 @@
 {
   "name": "tgportfolio",
   "version": "1.0.0",
-  "description": "This is my initial portfolio, utilizing javascript, ajax calls,\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Chtml, css3, bootstrap,javascript, jquery, ajax, and node.js.",
-  "main": "\u001b[D\u001b[D\u001b[D\u001bserver.js)",
+  "description": "This is my portfolio, utilizing javascript, ajax calls,html, css3, bootstrap,javascript, jquery, ajax, and node.js.",
+  "main": "(server.js)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/tammerg/newPortfolio#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
     "node-github": "0.0.3"
   }
 }

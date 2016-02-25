@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Rock Paper Scissors</title>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cyborg/bootstrap.min.css">
@@ -10,34 +9,36 @@
   <link rel="stylesheet" type="text/css" href="../public/style/animations.css">
   <link href="../public/style/hover.css" rel="stylesheet" media="all">
 </head>
-
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>j
-        </button>
-        <a class="navbar-brand" href="#">Tammer Galal</a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Me<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://github.com/tammerg">Github</a></li>
-            <li><a href="http://stackoverflow.com/users/5451564/tammerg">StackOverflow</a></li>
+  <div class="bs-component">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Tammer Galal</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="https://github.com/tammerg">Github<span class="sr-only">(current)</span></a></li>
             <li><a href="https://twitter.com/tammergalal">Twitter</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="https://peaceful-bayou-5778.herokuapp.com/">My Portfolio</a></li>
+            <li><a href="http://stackoverflow.com/users/5451564/tammerg">StackOverflow</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Work<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="repo.html">GitHub Repos</a></li>
+                <li><a href="rps.html">Rock, Paper, Scissors</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-    </div>
-    </div>
-  </nav>
+        </div>
+      </div>
+    </nav>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-4 slideRight">
@@ -122,5 +123,4 @@
   <script type="text/javascript" src="../script/rps.js"></script>
   <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
 </body>
-
 </html>
