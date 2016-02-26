@@ -17,6 +17,9 @@ h1, h2, h3, h4, strong{
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
+footer{
+ right: 660px;
+}
 .gameButtons{
   color: white;
   cursor: pointer;
