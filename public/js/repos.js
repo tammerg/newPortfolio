@@ -4,9 +4,9 @@ $(document).ready(function(){
     url: "https://api.github.com/users/tammerg/repos",
     success: function(repos){
       for (i = 0; i < repos.length; i++){
-        var newRepoUrl = buildRepoUrl(repos[i])
-        $(".list-group").append(newRepoUrl)
-      } 
+        var newRepoUrl = buildRepoUrl(repos[i]);
+        $(".list-group").append(newRepoUrl);
+      }
 
     },
   });
@@ -19,7 +19,8 @@ $(document).ready(function(){
     var newLink = $("<a>")
       .attr("href", commitsApiUrl)
       .addClass("list-group-item")
-      .append(repoData.name)
+      .addClass("repo")
+      .append(repoData.name);
     return newLink;
   }
 
