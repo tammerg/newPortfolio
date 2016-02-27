@@ -44,7 +44,9 @@ footer{
   font-family: 'Indie Flower', cursive;
   font-size: 30px;
   color: white;
-
+}
+#rpsParagraph{
+  text-align: center;
 }
 #result{
   font-family: 'Indie Flower', cursive;

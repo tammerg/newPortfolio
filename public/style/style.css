@@ -22,6 +22,10 @@ nav{
   width: 200px;
   height: 300px;
 }
+#rpsPic {
+  max-width: 450px;
+  max-height: 450px;
+}
 .list-group {
   color: white;
 }
