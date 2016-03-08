@@ -11,15 +11,15 @@ footer{
   width:100%;
   height:60px;
 }
+nav{
+  position: fixed;
+}
 .portfolioBody, .repoBody{
   background-image: url("/img/background.jpg");
   background-size: 100% 100%;
 }
 .firstP{
   text-align: center;
-}
-nav{
-  position: fixed;
 }
 #firstPicture{
   width: 200px;
