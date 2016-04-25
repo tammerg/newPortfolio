@@ -3,16 +3,19 @@ body {
 }
 footer{
   bottom: 0;
-  position: absolute;
+  position: fixed;
+  width:100%;
+  text-decoration: underline;
+  font-weight: bold;
   text-align: center;
 }
 .navbar-brand {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    text-align: center;
-    margin: auto;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
 }
 .navbar-toggle {
     z-index:3;
@@ -30,9 +33,6 @@ th{
 h1, h2, h3, h4, strong{
   text-align: center;
   font-family: 'Indie Flower', cursive;
-}
-footer{
- right: 660px;
 }
 .gameButtons{
   color: white;
