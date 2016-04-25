@@ -16,6 +16,9 @@ footer{
 nav{
   position: fixed;
 }
+.work{
+  text-align: center;
+}
 .portfolioBody, .repoBody{
   background-image: url("/img/background.jpg");
   background-size: 100% 100%;
