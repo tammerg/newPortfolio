@@ -3,11 +3,25 @@ body {
 }
 footer{
   bottom: 0;
- position: absolute;
+  position: absolute;
   text-align: center;
+}
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar-toggle {
+    z-index:3;
 }
 .start{
   text-align:center;
+}
+.mainContainer{
+  padding-top: 50px
 }
 th{
   text-decoration: underline;

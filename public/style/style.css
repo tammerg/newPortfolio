@@ -17,6 +17,20 @@ nav{
   position: absolute;
   top: 0;
 }
+.siteDescrip{
+  padding-top: 5px
+}
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
 .mainContainer{
   padding-top: 50px
 }
