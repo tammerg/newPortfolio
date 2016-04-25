@@ -13,7 +13,7 @@ footer{
   height:60px;
   text-align: center;
 }
-nav{
+.navbar{
   position: fixed;
   top: 0;
 }
@@ -34,7 +34,7 @@ nav{
 #rpsPic, #faceCheckPic, #foodWFPic {
  width: 100%;
 }
-}
+
 .list-group {
   color: white;
 }
