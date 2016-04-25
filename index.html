@@ -3,7 +3,6 @@
   <head>
     <title>Tammer Galal</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-resource.js"></script> -->
     <script src="/js/app.js"></script>
@@ -11,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/style/style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/darkly/bootstrap.css">
   </head>
-  <body ng-app='portfolioApp' class="portfolioBody">
+  <body class="portfolioBody">
     <div class="bs-component">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -22,7 +21,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="index.html-">Home</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
@@ -40,12 +39,50 @@
         </div>
       </nav>
     </div>
-    <div ui-view><div>
-    <!-- <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h4><strong>Tammer Galal <br /> Web Developer</strong></h4>
+        </div>
+        <div class="col-xs-12 text-center">
+          <img class="img-rounded me" id="firstPicture" src="/img/me.jpg">
+        </div>
+        <div class="col-xs-12 text-center">
+          <p class="description">Growing up I was always facinated by computers and loved technology in general. I started building my own PC's  at a fairly young age and continued to grow that hobby throughout childhood. When it came time to go to college, I began on a track for Medical School and graduated The Ohio State University
+            with a Bachelors Degree in Biology. I realized that medicine wasn't the right fit for me and I had to follow my passion for technology, thats when i decided to start coding, and haven't looked back. I'm beyond excited for the journey ahead, and all
+            the knowledge there is to attain</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-md-3">
+          <div>
+            <h3 class="siteHeader"><strong>Rock Paper Scissors!</strong></h3>
+            <a href="rps.html"><img class="img-rounded" id="rpsPic" src="/img/rps.jpg"></a>
+            <p class="siteDescrip">Play a game of Rock, Paper, Scissors! Created utilizing: <br /><strong>HTML, CSS3, Javascript, and Jqeury</strong></p>
+          </div>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <h3 class="siteHeader"><strong>Face Check</strong></h3>
+          <a href="http://face-check.herokuapp.com/"><img class="img-rounded" id="faceCheckPic" src="/img/faceCheckPic.jpg"></a>
+          <p class="siteDescrip">A facial and emotional recognition app Created utilizing: <br /><strong>HTML, CSS3, Javascript, Jqeury, AJAX, and 3 APIs</strong><br /><strong>Co-Creators: Long Phan and Evan Bates</strong></p>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <h3 class="siteHeader"><strong>RU Fly?</strong></h3>
+          <a href="http://rufly2.herokuapp.com/"><img class="img-rounded" id="faceCheckPic" src="/img/rufly.jpg"></a>
+          <p class="siteDescrip">RU Fly is a Rutgers Web Flyer, where students can add their favorite restaurants and leave reviews, so everyone knows the best place to eat! Adding upcoming events soon!<br /><strong>HTML, CSS3, Javascript, Node.js, MySQL, Sequelize, Express, JawsDB</strong></p>
+        </div>
+        <div class="col-sm-3 col-md-3">
+          <h3 class="siteHeader"><strong>Food With Friends</strong></h3>
+          <a href="http://getfoodwithfriends.herokuapp.com/"><img class="img-rounded" id="foodWFPic" src="/img/getFood.jpg"></a>
+          <p class="siteDescrip">Get food with friends is an app created to bring friends together. Use it to create an event and SMS out a form for your friends to respond too, taking all the guess work out of meeting up!<br /><strong>HTML, CSS3, Javascript, Node.js, Angular.js, MongoDB, Mongoose, Express, MongoLab</strong></p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
       <div class="container">
         <p class="text-muted">Place sticky footer content here.</p>
       </div>
-    </footer> -->
+    </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </body>

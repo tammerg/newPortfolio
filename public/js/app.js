@@ -1,16 +1,19 @@
-angular.module('portfolioApp',  ['ngRoute', 'ui.router', 'ui.bootstrap']).config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
-    $urlRouterProvider.otherwise('/');
-    $stateProvider
-      .state('main', {
-        url: '/',
-        views: {
-          '/': {
-            templateUrl: '/views/main.html'
-          }
-        }
-      });
-    $locationProvider.html5Mode({
-      enabled: true,
-      requireBase: false
+var commits = angular.module('commitsApp',  []);
+
+commits.controller('commitsAppController', function($scope, $http){
+  $scope.$watch('username', function(){
+    $http.get('https://api.github.com/users/' + $scope.username)
+    .success(function (data) {
+       if (data.name == "") data.name = data.login;
+       $scope.user = data;
+       $scope.loaded = true;
+    })
+    .error(function () {
+       $scope.userNotFound = true;
     });
-  }]);
+    $http.get("https://api.github.com/users/" + $scope.username + "/repos").success(function (data) {
+        $scope.repos = data;
+        $scope.reposFound = data.length > 0;
+     });
+  });
+});
