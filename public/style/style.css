@@ -34,6 +34,9 @@ nav{
 .mainContainer{
   padding-top: 50px
 }
+.siteHeader{
+    text-decoration-color: #2C3E50;
+}
 .work{
   text-align: center;
 }
