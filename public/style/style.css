@@ -13,6 +13,10 @@ footer{
   height:60px;
   text-align: center;
 }
+nav{
+  position: fixed;
+  top: 0;
+}
 .navbar{
   position: fixed;
   top: 0;
