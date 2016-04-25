@@ -30,9 +30,9 @@ nav{
   width: 200px;
   height: 300px;
 }
-#rpsPic, #faceCheckPic, #foodWFPic{
-  max-width: 450px;
-  max-height: 450px;
+#rpsPic, #faceCheckPic, #foodWFPic {
+ width: 100%;
+}
 }
 .list-group {
   color: white;
