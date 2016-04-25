@@ -14,7 +14,8 @@ footer{
   text-align: center;
 }
 nav{
-  position: absolute;
+  position: fixed;
+  top: 0;
 }
 .work{
   text-align: center;
