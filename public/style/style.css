@@ -14,8 +14,11 @@ footer{
   text-align: center;
 }
 nav{
-  position: fixed;
+  position: absolute;
   top: 0;
+}
+.mainContainer{
+  padding-top: 50px
 }
 .work{
   text-align: center;
