@@ -9,6 +9,9 @@ footer{
   font-weight: bold;
   text-align: center;
 }
+.contactInfo{
+  color: white;
+}
 .navbar-brand {
   position: absolute;
   width: 100%;
